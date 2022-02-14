@@ -29,6 +29,8 @@ public class Movement : MonoBehaviour, IPlayerActions
             
             m_rigidbody.AddForce(movement * m_force, ForceMode.Force);
         }
+
+        //Vector2 inputDir = _input.Player.Movement.ReadValue<Vector2>();
     }
 
 
